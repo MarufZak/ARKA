@@ -679,3 +679,57 @@ a {
     border-radius: 44px;
     font-size: 14px;
 }
+
+
+
+
+
+
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
+
+
+
+
+
+.get {
+    padding: 120px 0 150px 0;
+}
+
+.get__title {
+    color: var(--black-light);
+    font-size: 31px;
+    line-height: 36px;
+    margin-bottom: 55px;
+}
+
+.get__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get__links {
+    display: flex;
+}
+
+.get__link {
+    padding: 13px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 44px;
+    margin: 0 5px;
+}
+
+.get__link:first-of-type {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.get__link:last-of-type {
+    background: var(--white);
+    color: var(--blue);
+}

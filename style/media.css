@@ -258,6 +258,24 @@
         height: 150px;
         margin: 15px 0;
     }
+
+
+    .get__links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .get__title {
+        margin-bottom: 15px;
+    }
+
+    .get__link:first-of-type {
+        margin-bottom: 15px;
+    }
+
+    .get {
+        padding: 50px 0;
+    }
 }
 @media (max-width:442px) {
     .products__content {
