@@ -100,6 +100,57 @@
     .products__content {
         grid-template: 1fr 1fr 1fr / 1fr 1fr;
     }
+
+    .box__cards {
+        justify-content: center;
+    }
+    .box__card {
+        width: var(--col-6);
+    }
+    .box__card-text {
+        padding: 0;
+    }
+
+    .adv__cards {
+        justify-content: space-around;
+    }
+
+    .adv__card {
+        width: var(--col-5);
+        text-align: center;
+        align-items: center;
+    }
+
+    .yellow__body {
+        grid-template: 1fr 1fr / 1fr;
+        padding: 50px 0;
+    }
+    .yellow__card {
+        margin: 25px 0;
+    }
+
+
+    .yellow__card {
+        width: var(--col-12);
+    }
+
+
+    .partner__body {
+        grid-template: minmax(auto , 150px) minmax(auto , 150px) repeat(6, 1fr) / 1fr;
+        column-gap: 0;
+        row-gap: 30px;
+    }
+
+    .partner-5 {
+        order: 6;
+    }
+
+    .partner-6 {
+        order: 5;
+    }
+
+
+
 }
 @media (max-width: 676px) {
     .sponsors__body {
@@ -121,6 +172,22 @@
     .products__title {
         font-size: 24px;
     }
+    .adv__card {
+        width: var(--col-12);
+    }
+
+    .partner__body {
+        row-gap: 25px;
+        grid-template-rows: repeat(8, auto);
+        padding: 50px 0;
+    }
+
+    .partner__card {
+        width: var(--col-12);
+        padding: 0 15px;
+    }
+
+    
 }
 @media (max-width: 576px) {
     .header-content__item {
@@ -142,6 +209,54 @@
     }
     .products__card {
         padding: 0;
+    }
+
+    .box__card {
+        width: var(--col-12);
+    }
+
+    .box__title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .box {
+        padding: 25px 0;
+    }
+
+    .box__link {
+        margin: 20px auto 0 auto;
+    }
+
+
+    .yellow__card {
+        padding: 0 10px;
+    }
+
+
+    .partner__card-title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .partner__body {
+        row-gap: 30px;
+    }
+    .partner__card-card {
+        flex-direction: column;
+    }
+    .partner__card-title {
+        text-align: center;
+    }
+    .partner__card-link {
+        margin-top: 10px;
+    }
+    .partner__img-block {
+        margin: 0 auto 0 auto;
+    }
+    .partner__img {
+        width: 150px;
+        height: 150px;
+        margin: 15px 0;
     }
 }
 @media (max-width:442px) {
