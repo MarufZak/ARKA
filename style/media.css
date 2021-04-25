@@ -151,6 +151,24 @@
 
 
 
+    .footer__logo {
+        display: none;
+    }
+    
+    .footer__body {
+        grid-template: auto auto / 1fr 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+    .footer__nav {
+        margin-bottom: 30px;
+    }
+    .footer__other {
+        margin-left: 0;
+    }
+
+
+
 }
 @media (max-width: 676px) {
     .sponsors__body {
@@ -185,6 +203,10 @@
     .partner__card {
         width: var(--col-12);
         padding: 0 15px;
+    }
+
+    .footer__email {
+        width: 200px;
     }
 
     
@@ -275,6 +297,14 @@
 
     .get {
         padding: 50px 0;
+    }
+
+
+
+    .footer__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media (max-width:442px) {

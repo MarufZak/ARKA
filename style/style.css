@@ -733,3 +733,71 @@ a {
     background: var(--white);
     color: var(--blue);
 }
+
+
+
+
+
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+
+
+.footer__body {
+    display: grid;
+    grid-template: 1fr / auto auto auto auto auto;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+    color: var(--blue);
+    font-size: 15px;
+    line-height: 18px;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+.footer__social {
+     font-size: 26px;
+     color: var(--blue);
+     margin-right: 10px;
+}
+
+.footer__offer {
+    line-height: 18px;
+    font-size: 15px;
+    color: var(--blue);
+    margin-bottom: 15px;
+}
+
+fieldset {
+    border: none;
+}
+
+.footer__other {
+    margin-left: auto;
+}
+
+.footer__email {
+    width: 280px;
+    padding: 9px 18px;
+    border-radius: 34px;
+    border: none;
+    display: block;
+}
+
+.footer__send {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--white);
+    padding: 11px 36px;
+    background: var(--blue);
+    border-radius: 44px;
+    border: none;
+    margin-top: 12px;
+}
